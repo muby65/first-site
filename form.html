@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Form</title>
   </head>
   <body>
@@ -18,7 +19,25 @@
         <legend>Add Users</legend>
         <div>
           <label for="firstName">First Name:</label>
-          <input type="text" id="firstName" name="first_name">
+          <input type="text" id="firstName" name="first_name" />
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="last_Name" />
+        </div>
+        <h3>Gender</h3>
+        <div>
+          <label for="male">Male</label>
+          <input type="checkbox" id="male" name="male" />
+          <label for="female">Female</label>
+          <input type="checkbox" id="female" name="female" />
+        </div>
+        <div>
+          <label for="review">Review</label>
+          <textarea name="review" id="review" cols="30" rows="5">reviews</textarea>
+        </div><br>
+        <div>
+          <button type="submit">Submit</button>
         </div>
       </fieldset>
     </form>

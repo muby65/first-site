@@ -1,3 +1,13 @@
 .first-container{
 	display: flex;
 }
+.picture{
+	/* display: inline; */
+	width: 25%;
+	/* height: 10%; */
+}
+.container{
+	display: inline;
+	padding: 30px;
+
+}
